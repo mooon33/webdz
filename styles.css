@@ -15,7 +15,7 @@ header {
 }
 
 nav ul {
-    list-style: none;
+    list-style: disc;
     padding: 0;
 }
 
