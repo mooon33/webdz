@@ -3,7 +3,6 @@
 /* Общие стили */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
 }
@@ -15,10 +14,6 @@ header {
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
-}
-
 nav ul {
     list-style: disc;
     padding: 0;
@@ -26,7 +21,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin-right: 10px;
 }
 
 nav ul li a {
@@ -36,32 +31,6 @@ nav ul li a {
 
 main {
     padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-section {
-    margin-bottom: 40px;
-}
-
-h2 {
-    color: #333;
-}
-
-p {
-    margin-bottom: 20px;
-}
-
-ul {
-    list-style: disc;
-    margin-bottom: 20px;
-}
-
-img {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    height: auto;
 }
 
 footer {
@@ -69,13 +38,19 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
-<<<<<<< Updated upstream
-=======
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-top: auto;
->>>>>>> Stashed changes
+}
+
+/* Стили для страницы "Как фотографировать" */
+.composition-tips {
+    /* Добавьте стили для блока с советами по композиции */
+}
+
+.lighting-tips {
+    /* Добавьте стили для блока с советами по освещению */
+}
+
+.camera-tips {
+    /* Добавьте стили для блока с советами по использованию камеры */
 }
 
 /* Стили для страницы "Фотоальбом" */
@@ -90,29 +65,13 @@ footer {
     float: left; /* Использование float */
 }
 
+/* Стили для страницы "Контакты" */
+.contact-form {
+    /* Добавьте стили для формы контактов */
+}
+
 /* Адаптивные стили */
 @media (max-width: 768px) {
-        header {
-        padding: 5px 0;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    main {
-        padding: 10px;
-    }
-
-    section {
-        margin-bottom: 20px;
-    }
-
-    img {
-        margin: 10px auto;
-    }
-
     .photo-gallery img {
         width: 48%;
         margin: 1%;
