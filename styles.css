@@ -43,7 +43,16 @@ footer {
     text-align: center;
     margin-top: auto;
 }
-
+.sidebar {
+    width: 45%;
+    background-color: #e0e0e0;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.map {
+    width: 10%;
+    height: auto;
+}
 /* Стили для страницы "Как фотографировать" */
 .composition-tips {
     /* Добавьте стили для блока с советами по композиции */
