@@ -1,4 +1,4 @@
-var slideIndex = 1;
+var slideIndex = 1; //функция для просмотра альбома
 showSlides(slideIndex);
 
 function plusSlides(n) {
