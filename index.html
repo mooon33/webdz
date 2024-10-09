@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <!-- Устанавливаем кодировку документа -->
     <meta charset="UTF-8">
+    <!-- Устанавливаем адаптивный дизайн для мобильных устройств -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Заголовок страницы -->
     <title>Фотоальбом</title>
+    <!-- Подключаем внешний CSS файл для стилей -->
     <link rel="stylesheet" href="style_index.css">
 </head>
 <body>
+   
     <header>
+     
         <h1>Фотографии</h1>
+     
         <nav>
             <ul>
+                <!-- Ссылки на другие страницы сайта -->
                 <li><a href="index.html">Вернуться на главную</a></li>
                 <li><a href="guide.html">Как фотографировать</a></li>
                 <li><a href="photoalbum.html">Фотоальбом</a></li>
@@ -18,15 +26,21 @@
             </ul>
         </nav>
     </header>
+    
     <main>
+        <!-- Секция с главным фото и текстом -->
         <div class="hero">
+           
             <img src="img/main_photo.jpg" alt="главное фото">
+            
             <div class="hero-text">
                 <h1>Всегда хотели научиться красиво фотографировать?</h1>
                 <p>Тогда записывайтесь на наши курсы!</p>
             </div>
         </div>
+        <!-- Секция с двумя колонками -->
         <div class="columns">
+            <!-- Первая колонка с информацией о курсах -->
             <article class="about">
                 <h2>Вы научитесь:</h2>
                 <ul>
@@ -38,7 +52,7 @@
                     <li>Грамотно готовиться к проекту</li>
                 </ul>
             </article>
-
+            <!-- Вторая колонка с информацией о ценах и акциях -->
             <aside class="sidebar">
                 <h3>Наши расценки</h3>
                 <p>Профессия "Оператор": 5.000.000 &#8366;</p>
@@ -50,10 +64,14 @@
             </aside>
         </div>
     </main>
+    
     <footer>
+        <!-- Копирайт -->
         <p>&copy; 2024 Фотографии</p>
     </footer>
+    <!-- Сообщение для пользователей с отключенным JavaScript -->
     <noscript>
         <p>Пожалуйста, включите JavaScript</p>
     </noscript>
 </body>
+</html>
